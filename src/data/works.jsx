@@ -5,7 +5,8 @@
         tecnologias: "HTML, CSS, JavaScript",
         img: "https://picsum.photos/id/1/300/300",
         url: "/portafolio", 
-        categoria: "web"
+        categoria: "web",
+        descripcion: "lorem ipsum is simpli dummi text of de printing an typesetting industry"
     },
     {
         id: 2,
@@ -13,7 +14,8 @@
         tecnologias: "HTML, CSS, JavaScript",
         img: "https://picsum.photos/id/2/300/300",
         url: "/servicios",
-        categoria: "categoria"
+        categoria: "categoria",
+        descripcion: "lorem ipsum is simpli dummi text of de printing an typesetting industry"
     },
     {
         id: 3,
@@ -21,7 +23,8 @@
         tecnologias: "HTML, CSS, JavaScript",
         img: "https://picsum.photos/id/3/300/300",
         url: "/curriculum",
-        categoria: "web"
+        categoria: "web",
+        descripcion: "lorem ipsum is simpli dummi text of de printing an typesetting industry"
     },
     {
         id: 4,
@@ -29,8 +32,9 @@
         tecnologias: "HTML, CSS, JavaScript",
         img: "https://picsum.photos/id/4/300/300",
         url: "/contacto" ,
-        categoria: "web" 
-    }
+        categoria: "web",
+        descripcion: "lorem ipsum is simpli dummi text of de printing an typesetting industry"
+    } 
 ]
 
 export default works;

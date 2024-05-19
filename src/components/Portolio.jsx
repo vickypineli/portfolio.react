@@ -14,6 +14,7 @@ import works from "../data/works.jsx"
               <span>{work.categoria}</span>
               <img src={work.img} alt={work.name} />
               <a href={work.url}>Ver mas</a>
+              <p>{work.descripcion}</p>
             </article>
           );      
         })

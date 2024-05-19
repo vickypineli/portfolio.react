@@ -20,6 +20,11 @@ const MyRouters = () => {
                 <Route path='/servicios' element={<Services/>}/>
                 <Route path='/curriculum' element={<Curriculum/>}/>
                 <Route path='/contacto' element={<Contact/>}/>
+                <Route path='*' element={
+                <div className='error'>
+                    <h1 className='heading'>Error 404</h1>
+                </div>
+                }/>
             </Routes>
         </section>
             <Footer/>
