@@ -162,4 +162,23 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
   background-color: green;
+
+}
+.works{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work-item{
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.work-item img{
+  width: 100%;
+  border-radius: 5px;
 }
